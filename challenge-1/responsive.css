@@ -1,0 +1,71 @@
+@media screen and (max-width: 1024px){
+    .announcement {
+        padding: 12px;
+        font-size: medium;
+    }
+
+    .hero-title {
+        font-size: 65px;
+        line-height: 1;
+    }
+
+    .hero-content {
+        padding: 0px 8em 0px 8em;
+    }
+
+    .hero-description {
+        font-size: 18px;
+        padding: 0px 5rem 0 5rem;
+        margin-top: 1.6rem;
+    }
+
+    .cta-button {
+        padding: 12px 25px 14px 25px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .announcement {
+        padding: 10px;
+        font-size: small;
+    }
+
+    .announcement-button {
+        padding: 4px 9px 0px 10px;
+        top: 3px;
+        left: 2px;
+    }
+
+    .hero-title {
+        font-size: 60px;
+        line-height: 0.9;
+    }
+
+    .hero-content {
+        padding: 0px 4em 0px 4em;
+    }
+
+    .hero-description {
+        font-size: 17px;
+        padding: 0px 4rem 0 4rem;
+        margin-top: 1.6rem;
+    }
+
+    .cta-button {
+        padding: 11px 25px 13px 25px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+	.hero {
+		padding: 1rem;
+	}
+
+	.announcement-link {
+		font-size: 0.75rem;
+	}
+
+	.hero-content {
+		padding: 0 1rem;
+	}
+}

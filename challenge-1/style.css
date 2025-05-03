@@ -12,13 +12,14 @@ body {
 }
 
 .hero {
-    background: linear-gradient(180deg, #0d39ff1a 0%, transparent 100%);
+    background: linear-gradient(180deg, #8c1ec01a 0%, transparent 100%);
     min-height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    padding: 1rem;
 }
 
 .announcement {
@@ -69,31 +70,26 @@ body {
 .hero-description {
     font-size: 19px;
     color: #c6c6c6;
-    padding: 0;
+    padding: 0 10rem 0 10rem;
+    margin-top: 2rem;
 }
 
 .cta-button {
-    color: white;
+    font-weight: 600;
+    color: #d2c9c9;
     position: relative;
-    top: 25px;
+    top: 35px;
     border-radius: 25px;
-    padding: 10px 25px 10px 25px;
+    padding: 15px 25px 17px 25px;
     background-color: #3030c8;
     text-decoration: none;
 }
 
-.cta-button:hover {}
+.cta-button svg {
+    position: relative;
+    top: 3px;
+}
 
-@media (max-width: 640px) {
-	.hero {
-		padding: 1rem;
-	}
-
-	.announcement-link {
-		font-size: 0.75rem;
-	}
-
-	.hero-content {
-		padding: 0 1rem;
-	}
+.cta-button:hover {
+    
 }
