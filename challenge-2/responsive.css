@@ -1,0 +1,37 @@
+@media (min-width: 640px) {
+	.hero {}
+
+	.content-col h1 {}
+
+	.cta-group {}
+
+	.demo-button {}
+
+	.input-wrapper {}
+
+	input[type='text'] {}
+}
+
+@media (min-width: 768px) {
+	.content-col h1 {}
+}
+
+@media (min-width: 1024px) {
+	.hero {}
+
+	.hero-grid {}
+
+	.content-col h1 {}
+
+	.cta-group {}
+
+	.brands-section {}
+
+	.image-col {}
+}
+
+@media (min-width: 1280px) {
+	.hero-grid {
+		gap: 3rem;
+	}
+}
