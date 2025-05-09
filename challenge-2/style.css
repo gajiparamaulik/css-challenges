@@ -15,19 +15,33 @@ body {
 
 }
 
-.hero {}
+.hero {
 
-.hero-grid {}
+}
 
-.content-col h1 {}
+.hero-grid {
 
-.content-col p {}
+}
 
-.cta-group {}
+.content-col h1 {
 
-.sr-only {}
+}
 
-.input-wrapper {}
+.content-col p {
+
+}
+
+.cta-group {
+
+}
+
+.sr-only {
+
+}
+
+.input-wrapper {
+	
+}
 
 input[type='text'] {}
 
