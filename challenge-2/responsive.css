@@ -1,15 +1,27 @@
 @media (min-width: 640px) {
-	.hero {}
+	.hero {
 
-	.content-col h1 {}
+	}
 
-	.cta-group {}
+	.content-col h1 {
 
-	.demo-button {}
+	}
 
-	.input-wrapper {}
+	.cta-group {
 
-	input[type='text'] {}
+	}
+
+	.demo-button {
+
+	}
+
+	.input-wrapper {
+
+	}
+
+	input[type='text'] {
+		
+	}
 }
 
 @media (min-width: 768px) {
