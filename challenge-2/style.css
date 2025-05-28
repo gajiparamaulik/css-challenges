@@ -12,6 +12,7 @@
 }
 
 body {
+    overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -31,21 +32,53 @@ body {
 
 .content-col h1 {
     font-size: 70px;
+    margin: 0;
 }
 
 .content-col p {
-    font-size: 19px;
+    font-size: 1.17em;
+    font-weight: 500;
+    color: #303030;
+    font-family: system-ui;
+}
+
+body.dark .content-col p {
+    color: white;
 }
 
 .cta-group {}
 
 .sr-only {}
 
-.input-wrapper {}
+.input-wrapper {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
 
-input[type='text'] {}
+input[type='text'] {
+    padding: 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    outline: none;
+}
 
-.demo-button {}
+input,
+input::-webkit-input-placeholder {
+    font-size: 15px;
+    color: #9a9a9a;
+}
+
+.demo-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 14px 16px 14px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
 
 .demo-button:hover {}
 
@@ -53,22 +86,37 @@ input[type='text'] {}
 
 .trusted-by {}
 
-.brand-logos {}
+.brand-logos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Example: 3 columns */
+    grid-gap: 10px;
+    margin-top: 1rem;
+}
 
-.brand-logo {}
+.brand-logo {
+    width: 100px;
+    height: auto;
+}
 
 .image-col {
-    flex: 1;
+    flex: 0.5;
 }
 
 .hero-image {
     height: 70%;
     border-radius: 16px;
+    position: relative;
+    left: 7rem;
+}
+
+body.dark {
+    background-color: var(--bg-dark);
+    color: #ffffff;
 }
 
 .dark-mode-toggle {
     position: fixed;
-    right: 3rem;
+    right: 10.3rem;
     top: 2rem;
     background-color: #007bff;
     color: #ffffff;
@@ -77,16 +125,33 @@ input[type='text'] {}
     border-radius: 8px;
     font-weight: bold;
     cursor: pointer;
+    transition-duration: 0.4s;
 }
 
-.dark-mode-toggle:hover {}
+.dark-mode-toggle:hover {
+    background-color: #111827;
+}
 
-body.dark {}
+body.dark .dark-mode-toggle {
+    position: fixed;
+    right: 10.3rem;
+    top: 2rem;
+    background-color: #e5ddc8;
+    color: #000000;
+    border: none;
+    padding: 8px 14px 8px 14px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
 
-.dark-mode-toggle {}
+body.dark .dark-mode-toggle:hover {
+    background-color: #ffffff;
+}
 
-.dark-mode-toggle:hover {}
-
-input[type='text'].dark {}
+input[type='text'].dark {
+    
+}
 
 input[type='text']::placeholder {}
