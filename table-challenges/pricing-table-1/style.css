@@ -53,7 +53,8 @@ h1 {
 }
 
 .price {
-	
+	font-size: 33px;
+    font-weight: bold;
 }
 
 .period {
