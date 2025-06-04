@@ -25,7 +25,9 @@ h1 {
 }
 
 .pricing-container {
-	
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .pricing-card {
@@ -53,7 +55,7 @@ h1 {
 }
 
 .price {
-	font-size: 33px;
+    font-size: 33px;
     font-weight: bold;
 }
 
@@ -62,11 +64,20 @@ h1 {
 }
 
 .features {
-	
+    
 }
 
 .features li {
-	
+    list-style: none;
+    padding: 10px 30px;
+    background-image: url('./assets/cup.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+}
+
+li::before {
+
 }
 
 .subscribe-btn {
