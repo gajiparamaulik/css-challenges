@@ -29,17 +29,29 @@
 }
 
 @media (min-width: 1024px) {
-	.hero {}
+	.hero {
 
-	.hero-grid {}
+	}
 
-	.content-col h1 {}
+	.hero-grid {
 
-	.cta-group {}
+	}
 
-	.brands-section {}
+	.content-col h1 {
 
-	.image-col {}
+	}
+
+	.cta-group {
+
+	}
+
+	.brands-section {
+
+	}
+
+	.image-col {
+		
+	}
 }
 
 @media (min-width: 1280px) {
