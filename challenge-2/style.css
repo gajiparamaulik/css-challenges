@@ -85,9 +85,13 @@ input::-webkit-input-placeholder {
     transform: scale(1.1); 
 }
 
-.brands-section {}
+.brands-section {
 
-.trusted-by {}
+}
+
+.trusted-by {
+    
+}
 
 .brand-logos {
     display: grid;
