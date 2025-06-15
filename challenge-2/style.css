@@ -46,9 +46,13 @@ body.dark .content-col p {
     color: white;
 }
 
-.cta-group {}
+.cta-group {
 
-.sr-only {}
+}
+
+.sr-only {
+    
+}
 
 .input-wrapper {
     margin-top: 30px;
@@ -90,7 +94,7 @@ input::-webkit-input-placeholder {
 }
 
 .trusted-by {
-    
+
 }
 
 .brand-logos {
