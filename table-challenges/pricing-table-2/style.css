@@ -31,9 +31,7 @@ h1 {
 }
 
 .pricing-card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
 }
 
 .pricing-card:hover {
