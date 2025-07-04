@@ -1,6 +1,6 @@
 const toggle = document.getElementById('darkModeToggle');
 const body = document.body;
-
+console.log("body", body)
 // Load saved mode from localStorage
 const darkMode = localStorage.getItem('dark-mode');
 if (darkMode === 'enabled') {
